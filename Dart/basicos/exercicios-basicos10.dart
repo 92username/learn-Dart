@@ -4,7 +4,7 @@
 
 void main() {
   final int idade = 25;
-  idade =
-      30; // This line will cause an error because 'idade' is final and cannot be reassigned.
+  //idade =
+  30; // This line will cause an error because 'idade' is final and cannot be reassigned.
   print(idade);
 }

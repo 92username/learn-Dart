@@ -1,0 +1,21 @@
+## Lista de Exercícios if else
+
+1. Crie um programa que verifique se um número é par ou ímpar e exiba a mensagem correspondente.
+
+2. Escreva um código que peça a idade de uma pessoa e exiba se ela é maior ou menor de idade.
+
+3. Verifique se uma variável booleana chamada isRaining está verdadeira ou falsa e exiba uma mensagem para levar ou não o guarda-chuva.
+
+4. Escreva um programa que receba três números e determine qual é o maior deles.
+
+5. Crie um programa que leia o preço de um produto e exiba se ele está dentro do orçamento (menor que 100) ou fora do orçamento.
+
+6. Peça para o usuário digitar sua altura e determine se ele é alto, médio ou baixo, considerando alturas pré-definidas.
+
+7. Faça um programa que verifique se um ano é bissexto ou não.
+
+8. Verifique se uma pessoa pode votar, dirigindo a lógica com base na sua idade.
+
+9. Crie um programa que leia uma nota (0 a 100) e exiba a letra correspondente (A, B, C, D, F).
+
+10 Verifique se o saldo bancário de uma pessoa é maior que 5000 e exiba uma mensagem apropriada.
