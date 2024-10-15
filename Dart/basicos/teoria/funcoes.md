@@ -91,3 +91,52 @@ void main () {
 ```
 
 ### 6. Funções como parâmetros
+
+Em Dart, você pode passar funções como argumentos para outras funções.
+Exemplo:
+```
+void executarOperacao(int a, int b, Function operacao){
+    print("Resultado: ${operacao(a,b)});
+}
+
+void main() {
+    executarOperacao(10, 5, somar); //passando a função somar como argumento
+}
+
+int somar(int a, int b) {
+    return a + b;
+}
+
+Aqui, a função `executarOperacao` recebe outra função (`somar`) como parâmetro e a executa.
+
+## Métodos em Dart
+
+Os métodos em Dart são simplesmente funções que pertencem a uma classe.  Eles
+são usados para realizar operações em objetos ou instâncias de classes.
+
+**Exemplo de Método**
+```
+class Pessoa { 
+    String nome;
+    int idade;
+
+    // Método da classe
+    void aprensentar() {
+        print("Olá, meu nome é $nome e tenho $idade anos.");
+    }
+}
+
+void main() {
+    var pessoa = Pessoa();
+    pessoa.nome = "Carlos";
+    pessoa.idade = 30;
+    pessoa.apresentar(); // Chamando o método
+}
+
+Neste exemplo, `apresentar` é um método da classe `Pessoa` que exibe as informações da pessoa.
+
+## Resumo Rápido:
+    - Funções: Blocos de código que executam uma tarefa específica.  Podem ter retorno (`int`, `String`, etc.) ou não (`void`).
+    - Parâmetros Opcionais: Podem ser posicionais ou nomeados.
+    - Funções Anônimas: Funções sem nome que são usadas para tarefas curtas
+    - Métodos: Funções que pertencem a uma classe e são usadas em objetos.
