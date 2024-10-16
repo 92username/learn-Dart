@@ -1,0 +1,31 @@
+Exercícios sobre Classes e Objetos
+
+Criando uma Classe Pessoa
+Crie uma classe chamada Pessoa com os atributos nome e idade. Em seguida, crie um objeto dessa classe e atribua os valores "Alice" e 30 aos atributos.
+
+Adicionando um Método à Classe
+Adicione à classe Pessoa um método chamado apresentar que imprima: "Olá, meu nome é [nome] e eu tenho [idade] anos.". Crie um objeto e chame esse método.
+
+Classe Carro e Atributos
+Crie uma classe Carro com os atributos cor e modelo. Instancie dois objetos dessa classe: um carro azul do modelo "SUV" e um carro vermelho do modelo "Sedan".
+
+Usando Construtores para Inicializar Objetos
+Modifique a classe Pessoa para que ela use um construtor que receba nome e idade como parâmetros. Crie um objeto usando o construtor.
+
+Diferença entre Atributos e Métodos
+Na classe Pessoa, adicione um método fazerAniversario que aumente a idade em 1 ano. Crie um objeto e chame esse método.
+
+Classe Animal com Método de Ação
+Crie uma classe Animal com um método chamado emitirSom. Crie uma subclasse Cachorro que sobrescreve o método emitirSom para imprimir "O cachorro late.". Instancie um objeto Cachorro e chame o método.
+
+Encapsulamento com Atributos Privados
+Modifique a classe Pessoa para que o atributo idade seja privado (use _idade). Adicione um getter e um setter para manipular esse atributo.
+
+Método Estático em uma Classe
+Crie uma classe Matematica com um método estático chamado dobro que recebe um número e retorna o seu dobro. Chame o método sem instanciar um objeto.
+
+Classe Abstrata e Herança
+Crie uma classe abstrata chamada FormaGeometrica com um método area. Crie uma classe Quadrado que herda de FormaGeometrica e implementa o método area. Instancie um Quadrado e exiba sua área.
+
+Criando uma Tabela de Objetos
+Crie uma classe Produto com os atributos nome e preco. Em seguida, crie uma lista de objetos Produto e imprima uma tabela formatada com os nomes e preços dos produtos no console.
