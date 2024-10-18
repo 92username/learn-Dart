@@ -1,0 +1,22 @@
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências e arquivos gerados
+node_modules/
+build/
+dist/
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Ignorar chaves e senhas
+.env
+*.key
+*.pem
+
+# Ignorar logs
+*.log
+
+.vscode
