@@ -1,7 +1,3 @@
-Aqui está uma aula teórica completa para o **item 2.5: Tratamento de Erros e Exceções**, formatada como um `README.md`:
-
----
-
 # **2.5 Tratamento de Erros e Exceções**
 
 ## **O que são Erros e Exceções?**
@@ -141,7 +137,3 @@ void main() {
 
 ### **Conclusão**
 O tratamento de erros e exceções é fundamental para garantir que seu programa Dart seja **confiável** e não falhe inesperadamente. Usando blocos como `try`, `catch` e `finally`, você pode lidar com erros de forma adequada e oferecer uma **experiência mais segura** para o usuário.
-
----
-
-Agora você pode copiar e colar este conteúdo no seu `README.md`. Se precisar de mais alguma coisa, é só avisar! 🚀
